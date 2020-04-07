@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="./main.css"/>
         <link rel="stylesheet" href="./calculator.css"/>
+        <script type='module' src='./index.js'></script>
     </head>
     <body>
         <div class="centered info">
@@ -10,7 +11,30 @@
         <div class="centered calculator">
             <textarea id="calculation" class="screen" disabled></textarea>
             <textarea id="solution" class="screen" disabled></textarea>
-            <div class="numpad"></div>
+            <div class="numpad">
+                <button id="b1" class="centered">1 </button>
+                <button id="b2" class="centered">2 </button>
+                <button id="b3" class="centered">3 </button> <br>
+                <button id="b4" class="centered">4 </button>
+                <button id="b5" class="centered">5 </button>
+                <button id="b6" class="centered">6 </button><br>
+                <button id="b7" class="centered">7 </button>
+                <button id="b8" class="centered">8 </button>
+                <button id="b9" class="centered">9 </button> <br>
+                <button id="b0" class="centered">0 </button>
+
+            </div>
+            <div class="operations">
+                <button id="bkomma">,</button>
+                <button id="benter">=</button> <br>
+                <button id="bplus">+</button>
+                <button id="bminus">-</button> <br>
+                <button id="bmal">*</button> 
+                <button id="bgeteilt">/</button> <br>
+                <button id="bhoch">^</button>
+                <button id="bfac">!</button> <br>
+            </div>
+            <button id="delete">AC</button>
         </div>
     </body>
     <script src="./index.js" type="module"></script>
